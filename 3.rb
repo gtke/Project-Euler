@@ -1,3 +1,4 @@
+# problem 3
 def prime_factors(n)
     return [] if n == 1
     factor = (2..n).find {|x| (n % x).zero?}
